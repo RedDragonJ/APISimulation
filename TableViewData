@@ -1,22 +1,22 @@
 {
-	"topics": [{
-			"name": "Single View Application",
+	"courses": [{
+			"courseName": "Single View Application",
 			"description:": "I'm going to show you how to create a simple single view application with data from an API endpoint"
 		},
 		{
-			"name": "Create tableView",
+			"courseName": "Create tableView",
 			"description": "This topic is going to talk about how to add a tableview to your viewcontroller"
 		},
 		{
-			"name": "Create detail view",
+			"courseName": "Create detail view",
 			"description": "The detail view will transit from the tableview and display the detail information that you downloaded from the API endpoint"
 		},
 		{
-			"name": "Make simple API call",
+			"courseName": "Make simple API call",
 			"description": "This will handle the API call and download the right data and map to the data model so you can use it later"
 		},
 		{
-			"name": "Data Model",
+			"courseName": "Data Model",
 			"description": "The data model will handle how data been structured in your project and store them on the memory"
 		}
 	]
