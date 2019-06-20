@@ -1,7 +1,7 @@
 {
 	"courses": [{
 			"courseName": "Single View Application",
-			"description:": "I'm going to show you how to create a simple single view application with data from an API endpoint"
+			"description": "I'm going to show you how to create a simple single view application with data from an API endpoint"
 		},
 		{
 			"courseName": "Create tableView",
