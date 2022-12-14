@@ -18,10 +18,11 @@
 		},
 		{
 			"uuid": "b8cf3382-ecf2-4240-b8ab-007688426e8c",
-			"full_name": "Richard Stein",
+			"full_name": "Richard Dog",
 			"phone_number": "5557223332",
 			"email_address": "rstein.demo@squareup.com",
 			"biography": "Product manager for the Point of sale app!",
+			"image_URL": "https://raw.githubusercontent.com/RedDragonJ/APISimulation/master/dog.jpg",
 			"employee_type": "PART_TIME"
 		}
 	]
