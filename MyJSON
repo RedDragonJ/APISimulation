@@ -1,10 +1,11 @@
 {
 	"employees": [{
 			"uuid": "0d8fcc12-4d0c-425c-8355-390b312b909c",
-			"full_name": "Justine Mason",
+			"full_name": "Justine Bird",
 			"phone_number": "5553280123",
 			"email_address": "jmason.demo@squareup.com",
 			"biography": "Engineer on the Point of Sale team.",
+			"image_URL": "https://raw.githubusercontent.com/RedDragonJ/APISimulation/master/bird.jpg",
 			"employee_type": "FULL_TIME"
 		}, {
 			"uuid": "a98f8a2e-c975-4ba3-8b35-01f719e7de2d",
