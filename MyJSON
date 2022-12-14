@@ -1,11 +1,26 @@
 {
-	"goals" : [
-		{
-			"goalName": "Do more exercise",
-			"goalProgress": 50
+	"employees": [{
+			"uuid": "0d8fcc12-4d0c-425c-8355-390b312b909c",
+			"full_name": "Justine Mason",
+			"phone_number": "5553280123",
+			"email_address": "jmason.demo@squareup.com",
+			"biography": "Engineer on the Point of Sale team.",
+			"employee_type": "FULL_TIME"
 		}, {
-			"goalName": "Be a better version of myself",
-			"goalProgress": 20
+			"uuid": "a98f8a2e-c975-4ba3-8b35-01f719e7de2d",
+			"full_name": "Camille Rogers",
+			"phone_number": "5558531970",
+			"email_address": "crogers.demo@squareup.com",
+			"biography": "Designer on the web marketing team.",
+			"employee_type": "PART_TIME"
+		},
+		{
+			"uuid": "b8cf3382-ecf2-4240-b8ab-007688426e8c",
+			"full_name": "Richard Stein",
+			"phone_number": "5557223332",
+			"email_address": "rstein.demo@squareup.com",
+			"biography": "Product manager for the Point of sale app!",
+			"employee_type": "PART_TIME"
 		}
 	]
 }
