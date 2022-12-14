@@ -9,10 +9,11 @@
 			"employee_type": "FULL_TIME"
 		}, {
 			"uuid": "a98f8a2e-c975-4ba3-8b35-01f719e7de2d",
-			"full_name": "Camille Rogers",
+			"full_name": "Camille Cat",
 			"phone_number": "5558531970",
 			"email_address": "crogers.demo@squareup.com",
 			"biography": "Designer on the web marketing team.",
+			"image_URL": "https://raw.githubusercontent.com/RedDragonJ/APISimulation/master/cat.jpg",
 			"employee_type": "PART_TIME"
 		},
 		{
