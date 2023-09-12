@@ -1,29 +1,142 @@
-{
-	"employees": [{
-			"uuid": "0d8fcc12-4d0c-425c-8355-390b312b909c",
-			"full_name": "Justine Bird",
-			"phone_number": "5553280123",
-			"email_address": "jmason.demo@squareup.com",
-			"biography": "Engineer on the Point of Sale team.",
-			"image_URL": "https://raw.githubusercontent.com/RedDragonJ/APISimulation/master/bird.jpg",
-			"employee_type": "FULL_TIME"
-		}, {
-			"uuid": "a98f8a2e-c975-4ba3-8b35-01f719e7de2d",
-			"full_name": "Camille Cat",
-			"phone_number": "5558531970",
-			"email_address": "crogers.demo@squareup.com",
-			"biography": "Designer on the web marketing team.",
-			"image_URL": "https://raw.githubusercontent.com/RedDragonJ/APISimulation/master/cat.jpg",
-			"employee_type": "PART_TIME"
-		},
-		{
-			"uuid": "b8cf3382-ecf2-4240-b8ab-007688426e8c",
-			"full_name": "Richard Dog",
-			"phone_number": "5557223332",
-			"email_address": "rstein.demo@squareup.com",
-			"biography": "Product manager for the Point of sale app!",
-			"image_URL": "https://raw.githubusercontent.com/RedDragonJ/APISimulation/master/dog.jpg",
-			"employee_type": "PART_TIME"
-		}
-	]
-}
+[
+    {
+        "id": "entitlement1",
+        "entitlementType": "Entitlement",
+        "couponCode": "COUPON123",
+        "deleted": false,
+        "description": "Sample entitlement 1",
+        "displayClassId": "class1",
+        "displayName": "Entitlement One",
+        "eligibleUsers": [
+            {
+                "userId": "user123",
+                "email": "user123@example.com",
+                "externalId": "ext123"
+            }
+        ],
+        "entitlementRuleId": 1001,
+        "lastEventAt": "2023-09-11T12:00:00Z",
+        "lastUsed": "2023-09-11T12:01:00Z",
+        "parentEntitlementId": "parent1",
+        "parentEntitlementSystemOfRecordId": "sysRecord1",
+        "productId": "prod1",
+        "quantityTotal": 5,
+        "quantityUsed": 2,
+        "redemptionUrl": "http://example.com/redemption1",
+        "status": "active",
+        "systemOfRecordId": "sysRecord1",
+        "associatedEntitlementIds": [
+            "entitlement1A",
+            "entitlement1B"
+        ],
+        "usages": [
+            {
+                "id": "usage1",
+                "accessPointId": 101,
+                "agentId": 201,
+                "deviceId": 301,
+                "quantityUsed": 1,
+                "status": "used",
+                "usageId": "usageId1",
+                "usageTimestamp": "2023-09-11T12:02:00Z",
+                "user": {
+                    "userId": "user123",
+                    "email": "user123@example.com",
+                    "externalId": "ext123"
+                }
+            }
+        ],
+        "validity": {
+            "dateSpan": {
+                "start": "2023-09-10T00:00:00Z",
+                "end": "2023-09-12T00:00:00Z"
+            },
+            "timeSpan": {
+                "start": "09:00",
+                "end": "18:00"
+            },
+            "daysOfWeek": {
+                "monday": true,
+                "tuesday": true,
+                "wednesday": false,
+                "thursday": false,
+                "friday": false,
+                "saturday": false,
+                "sunday": false
+            },
+            "blockoutDates": [],
+            "validAtSites": [
+                "site1",
+                "site2"
+            ],
+            "validAtLocations": [
+                "location1",
+                "location2"
+            ]
+        },
+        "valueCurrency": "USD",
+        "valueTotal": 50.0,
+        "valueUsed": 20.0,
+        "productDetails": {
+            "externalId": "extProd1",
+            "venues": [
+                "venue1",
+                "venue2"
+            ],
+            "basePrice": 25.0,
+            "displayName": "Product One",
+            "description": "This is product one.",
+            "ticketType": "electronic",
+            "originatingSystem": "sys1"
+        },
+        "displayClass": {
+            "id": "class1",
+            "color": "#FF5733",
+            "image": {
+                "height": 100,
+                "key": "key1",
+                "resolution": "HDPI",
+                "src": "http://example.com/image1.png",
+                "width": 100
+            },
+            "name": "Class One",
+            "source": "source1",
+            "type": "type1"
+        }
+    },
+    {
+        "id": "entitlement2",
+        "entitlementType": "Entitlement",
+        "description": "Sample entitlement 2",
+        "displayClassId": "class2",
+        "displayName": "Entitlement Two",
+        "systemOfRecordId": "sysRecord2",
+        "status": "inactive",
+        "productDetails": {
+            "externalId": "extProd2",
+            "venues": [
+                "venue3",
+                "venue4"
+            ],
+            "basePrice": 30.0,
+            "displayName": "Product Two",
+            "description": "This is product two.",
+            "ticketType": "paper",
+            "originatingSystem": "sys2"
+        },
+        "displayClass": {
+            "id": "class2",
+            "color": "#33FF57",
+            "image": {
+                "height": 100,
+                "key": "key2",
+                "resolution": "XHDPI",
+                "src": "http://example.com/image2.png",
+                "width": 100
+            },
+            "name": "Class Two",
+            "source": "source2",
+            "type": "type2"
+        }
+    }
+]
