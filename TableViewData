@@ -11,6 +11,7 @@
 		},
 		{
 			"courseName": "Create detail view",
+			"image_url": "https://raw.githubusercontent.com/RedDragonJ/APISimulation/master/dog.jpg",
 			"description": "The detail view will transit from the tableview and display the detail information that you downloaded from the API endpoint"
 		},
 		{
