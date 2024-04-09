@@ -6,6 +6,7 @@
 		},
 		{
 			"courseName": "Create tableView",
+			"image_url": "https://raw.githubusercontent.com/RedDragonJ/APISimulation/master/cat.jpg",
 			"description": "This topic is going to talk about how to add a tableview to your viewcontroller"
 		},
 		{
