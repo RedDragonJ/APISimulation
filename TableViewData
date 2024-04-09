@@ -1,6 +1,7 @@
 {
 	"courses": [{
 			"courseName": "Single View Application",
+			"image_url": "https://raw.githubusercontent.com/RedDragonJ/APISimulation/master/bird.jpg",
 			"description": "I'm going to show you how to create a simple single view application with data from an API endpoint"
 		},
 		{
